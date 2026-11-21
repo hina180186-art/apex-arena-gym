@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership Plans & Pricing | APEX ARENA Gujranwala</title>
+  <meta name="description" content="Transparent, value-stacked membership plans in PKR for APEX ARENA Gujranwala. Starter Monthly (Rs. 4,500), Quarterly Transformation (Rs. 11,500), and VIP Annual (Rs. 36,000). Zero hidden admission fees.">
+  <meta name="keywords" content="Gym Fees Gujranwala, APEX ARENA Membership, Gym Packages Gujranwala, Ladies Gym Fees Gujranwala, Personal Trainer Rates Gujranwala">
+
+  <!-- Favicon: Inline Architectural Gold Crest SVG with Gold/Red 'A' Emblem -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230B0B0D'/%3E%3Cpolygon points='32,4 58,18 58,46 32,60 6,46 6,18' stroke='%23D4AF37' stroke-width='2.5' fill='%23141418'/%3E%3Cpath d='M32 12 L14 50 H24 L28 40 H36 L40 50 H50 L32 12 Z' fill='%23D4AF37'/%3E%3Cpolygon points='32,22 35.5,33 28.5,33' fill='%230B0B0D'/%3E%3Crect x='23' y='37' width='18' height='3.5' rx='1.5' fill='%23E11D48'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts Preconnect & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Ribbon -->
+  <div class="top-ribbon" role="region" aria-label="Announcements">
+    <div class="container ribbon-container">
+      <div class="ribbon-item active">
+        <span class="ribbon-badge">EXCLUSIVE</span>
+        <span>COMPLIMENTARY 1-DAY TRIAL PASS FOR NEW MEMBERS</span>
+      </div>
+      <div class="ribbon-item">
+        <span class="ribbon-badge ladies">LADIES ONLY</span>
+        <span>DEDICATED LADIES-ONLY SHIFT · 11:00 AM TO 4:00 PM</span>
+      </div>
+      <div class="ribbon-item">
+        <span class="ribbon-badge">UNINTERRUPTED</span>
+        <span>FULLY AIR-CONDITIONED ARENA · 100% POWER BACKUP</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Luxury Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo" aria-label="APEX ARENA Homepage">
+        <svg class="logo-crest-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="crestGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#FFF0B8"/>
+              <stop offset="50%" stop-color="#D4AF37"/>
+              <stop offset="100%" stop-color="#AA820A"/>
+            </linearGradient>
+          </defs>
+          <polygon points="50,4 92,26 92,74 50,96 8,74 8,26" stroke="url(#crestGold)" stroke-width="2.5" fill="#0B0B0D" />
+          <polygon points="50,11 85,29 85,71 50,89 15,71 15,29" stroke="#26262E" stroke-width="1.2" fill="none" />
+          <path d="M50 18 L26 76 H36 L43 58 H57 L64 76 H74 L50 18 Z" fill="url(#crestGold)" />
+          <polygon points="50,32 55,50 45,50" fill="#0B0B0D" />
+          <rect x="34" y="64" width="32" height="3" fill="#D4AF37" />
+        </svg>
+        <div class="brand-text">
+          <span class="brand-title">APEX <span>ARENA</span></span>
+          <span class="brand-sub">STRENGTH · CONDITIONING · GUJRANWALA</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="programs.html" class="nav-link">Programs</a>
+        <a href="memberships.html" class="nav-link active">Memberships</a>
+        <a href="facility.html" class="nav-link">Facility</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Actions -->
+      <div class="nav-actions">
+        <button class="btn btn-gold btn-sm" data-open-trial aria-label="Claim Free Trial Pass">
+          <span>FREE TRIAL</span>
+        </button>
+        <button class="menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-backdrop" id="mobileBackdrop"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Drawer">
+    <div>
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border-hairline);">
+        <span class="brand-title" style="font-size: 1.3rem;">APEX <span style="color:var(--gold);">ARENA</span></span>
+        <span style="font-size: 0.7rem; color: var(--gold); letter-spacing: 0.14em; font-family: var(--font-heading); font-weight:600;">GUJRANWALA</span>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link"><span>Home</span> <span>→</span></a></li>
+        <li><a href="programs.html" class="mobile-nav-link"><span>Programs</span> <span>→</span></a></li>
+        <li><a href="memberships.html" class="mobile-nav-link active"><span>Memberships</span> <span>→</span></a></li>
+        <li><a href="facility.html" class="mobile-nav-link"><span>Facility</span> <span>→</span></a></li>
+        <li><a href="contact.html" class="mobile-nav-link"><span>Contact</span> <span>→</span></a></li>
+      </ul>
+    </div>
+    <div class="mobile-drawer-footer">
+      <button class="btn btn-gold btn-block" data-open-trial>Claim 1-Day Free Trial</button>
+      <a href="https://wa.me/923006291617?text=Hi%20APEX%20ARENA!%20I'd%20like%20to%20inquire%20about%20memberships%20and%20a%201-day%20free%20trial." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-block" data-wa-drawer>
+        <span>Chat on WhatsApp</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       PAGE HERO (LUXURY ARCHITECTURAL BANNER)
+       ======================================================================== -->
+  <section class="page-hero" aria-label="Page Header">
+    <div class="page-hero-bg">
+      <img 
+        src="assets/hero-memberships.jpg" 
+        alt="APEX ARENA Membership Tiers & Pricing" 
+        class="page-hero-image"
+        loading="eager"
+      >
+      <div class="page-hero-scrim"></div>
+    </div>
+    <div class="container text-center page-hero-content">
+      <span class="eyebrow">CLEAR & TRANSPARENT INVESTMENT</span>
+      <h1 class="page-hero-title">MEMBERSHIP TIERS & PRICING</h1>
+      <p class="page-hero-desc">
+        Choose the commitment level that matches your ambition. All plans include 100% generator backup, chilled air conditioning, locker amenities, and zero hidden admission charges.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       3 VALUE-STACKED PKR PRICING CARDS
+       ======================================================================== -->
+  <section class="section" style="padding-top: 20px;">
+    <div class="container">
+      <div class="pricing-grid">
+        <!-- Tier 1: Starter Monthly -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3 class="plan-name">STARTER MONTHLY</h3>
+            <p class="plan-desc">For independent athletes who value top-tier machinery</p>
+            <div class="plan-price-box">
+              <span class="plan-currency">Rs.</span>
+              <span class="plan-amount">4,500</span>
+              <span class="plan-period">/ month</span>
+            </div>
+          </div>
+
+          <div class="plan-features">
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Full Access to 12,000 Sq.Ft Main Iron Arena</span>
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Cardio Studio (Life Fitness Treadmills & StairMasters)</span>
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Day-use Secure Keypad Lockers & Executive Showers</span>
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Initial InBody 570 Baseline Composition Scan</span>
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Complimentary Arena High-Speed Wi-Fi</span>
+            </div>
+          </div>
+
+          <button class="btn btn-outline btn-block" data-plan-name="Starter Monthly Plan" data-plan-price="Rs. 4,500/month">
+            <span>Join Monthly Tier</span>
+          </button>
+        </div>
+
+        <!-- Tier 2: Quarterly Transformation (FEATURED) -->
+        <div class="pricing-card featured">
+          <div class="pricing-badge-popular">MOST POPULAR IN GUJRANWALA</div>
+          <div class="pricing-header">
+            <h3 class="plan-name text-gold">QUARTERLY TRANSFORMATION</h3>
+            <p class="plan-desc">Our flagship 90-day protocol for serious physical reinvention</p>
+            <div class="plan-price-box">
+              <span class="plan-currency">Rs.</span>
+              <span class="plan-amount text-gold">11,500</span>
+              <span class="plan-period">/ 3 months</span>
+            </div>
+          </div>
+
+          <div class="plan-features">
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Everything in Starter Monthly included</span>
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <strong style="color:var(--gold);">Custom Pakistani Macro Diet Chart</strong> (Chicken, Daal, Roti macros)
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>2 Personal Training Sessions</strong> with Senior Coach</span>
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Full Access to CrossFit Turf & Heavy Boxing Bag Zone</span>
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Bi-weekly InBody Re-assessment & Body Fat Progress Audit</span>
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Complimentary 10-day Membership Pause Option</span>
+            </div>
+          </div>
+
+          <button class="btn btn-gold btn-block" data-plan-name="Quarterly Transformation Plan" data-plan-price="Rs. 11,500/3 months">
+            <span>Enroll in Quarterly Plan</span>
+          </button>
+        </div>
+
+        <!-- Tier 3: VIP All-Access Annual -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3 class="plan-name">VIP ALL-ACCESS ANNUAL</h3>
+            <p class="plan-desc">For executives and athletes demanding complete luxury priority</p>
+            <div class="plan-price-box">
+              <span class="plan-currency">Rs.</span>
+              <span class="plan-amount">36,000</span>
+              <span class="plan-period">/ year (Rs. 3,000/mo effective)</span>
+            </div>
+          </div>
+
+          <div class="plan-features">
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Unlimited 365-Day Access to All Arenas & Studios</span>
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <strong style="color:var(--text-primary);">Steam & Finnish Sauna Room Access</strong> (Post-workout recovery)
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>Dedicated Permanent Personalized Locker</strong> Allotment</span>
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>12 Free VIP Guest Day Passes for Family or Colleagues</span>
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>45-Day Total Membership Freeze Privilege (Travel/Ramadan)</span>
+            </div>
+            <div class="plan-feature">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Priority Access to Masterclasses & Guest Trainer Clinics</span>
+            </div>
+          </div>
+
+          <button class="btn btn-outline btn-block" data-plan-name="VIP All-Access Annual Plan" data-plan-price="Rs. 36,000/year">
+            <span>Secure VIP Annual</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       1-ON-1 PERSONAL COACHING & CONTEST PREP BANNER
+       ======================================================================== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div style="background: var(--bg-card); border: 1px solid var(--border-gold); border-radius: var(--radius-md); padding: clamp(32px, 5vw, 48px); display: grid; grid-template-columns: 1.2fr 1fr; gap: 36px; align-items: center;">
+        <div>
+          <span class="eyebrow" style="margin-bottom: 12px;">ELITE PRIVATE MENTORSHIP</span>
+          <h2 style="font-size: clamp(1.8rem, 3.2vw, 2.6rem); margin-bottom: 16px;">
+            1-ON-1 PERSONAL COACHING & CONTEST PREPARATION
+          </h2>
+          <p style="color: var(--text-secondary); font-size: 0.98rem; margin-bottom: 24px; line-height: 1.7;">
+            Need accelerated transformation for a wedding, photoshoot, or bodybuilding competition? Work directly with Head Coach Tariq Mehmood or female specialist Zainab Cheema. Includes private form correction, biometric tracking, customized Pakistani meal plans, and daily WhatsApp check-ins.
+          </p>
+          <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px;">
+            <div style="display:flex; align-items:center; gap: 12px; font-size:0.92rem; color:var(--text-primary);">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>12 Private 1-on-1 Sessions / Month:</strong> Rs. 15,000 + Gym Membership</span>
+            </div>
+            <div style="display:flex; align-items:center; gap: 12px; font-size:0.92rem; color:var(--text-primary);">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span><strong>Contest / Bridal 16-Week Intensive:</strong> Bespoke Pricing on Request</span>
+            </div>
+          </div>
+          <button class="btn btn-gold" data-coach-name="Head Strength Coach" data-coach-spec="1-on-1 Personal Coaching Package">
+            <span>Inquire About Personal Coaching</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <div style="position: relative; border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--border-hairline); height: 100%; min-height: 320px;">
+          <img 
+            src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80" 
+            alt="Personal Training in Gujranwala at APEX ARENA" 
+            style="width: 100%; height: 100%; object-fit: cover;"
+            loading="lazy"
+          >
+          <div style="position: absolute; bottom: 0; left: 0; width: 100%; padding: 20px; background: linear-gradient(180deg, transparent 0%, rgba(11,11,13,0.95) 100%);">
+            <span style="font-family: var(--font-heading); font-size: 0.8rem; color: var(--gold); letter-spacing: 0.12em; text-transform: uppercase;">CERTIFIED RESULTS</span>
+            <h4 style="font-size: 1.2rem; margin-top: 4px;">Guaranteed Biometric Improvements</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       MEMBERSHIP FAQ ACCORDION
+       ======================================================================== -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="eyebrow">FREQUENTLY ASKED QUESTIONS</span>
+        <h2>EVERYTHING YOU NEED TO KNOW</h2>
+        <p class="section-subtitle">
+          Transparent details regarding ladies shifts, payment methods, freezing policies, and guest privileges.
+        </p>
+      </div>
+
+      <div class="faq-list">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <button class="faq-toggle" aria-expanded="false">
+            <span>How does the dedicated Ladies-Only Shift operate?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-content">
+            <p>
+              The Ladies Shift runs strictly from <strong>11:00 AM to 4:00 PM, Monday through Saturday</strong>. During this window, male members and male staff are not permitted on the premises. All training floors, the cardio deck, and studios are supervised exclusively by our female trainers, led by Coach Zainab Cheema. Privacy frosted glass and dedicated female reception ensure 100% peace of mind.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <button class="faq-toggle" aria-expanded="false">
+            <span>Can I pause or freeze my membership if I travel abroad or during Ramadan?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-content">
+            <p>
+              Yes! We understand business travel and holy month commitments. Quarterly Transformation members can freeze their membership for up to <strong>10 days</strong>, while VIP Annual members receive up to <strong>45 days</strong> of total freeze privileges. Simply drop a message on our front desk WhatsApp prior to your departure to freeze your billing cycle.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <button class="faq-toggle" aria-expanded="false">
+            <span>What exactly is included in the Complimentary 1-Day Free Trial Pass?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-content">
+            <p>
+              Your 1-Day Trial grants you complete, unrestricted access to the entire 12,000 sq.ft facility during your selected shift. You can test out our imported Hammer Strength plate-loaded machinery, run on the cardio deck, try our CrossFit turf, and get a complimentary 15-minute consultation with a senior fitness coach. There is zero pressure to sign up.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <button class="faq-toggle" aria-expanded="false">
+            <span>Are there any hidden admission or maintenance charges? What payment methods are accepted?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-content">
+            <p>
+              APEX ARENA has <strong>zero admission fees</strong> and zero hidden locker or air-conditioning surcharges. The price you see is exactly what you pay. We accept Cash at the front desk, all major Debit/Credit Cards, direct Online Bank Transfers, and instant Raast ID payments.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item">
+          <button class="faq-toggle" aria-expanded="false">
+            <span>How does the 100% generator backup work during Gujranwala load shedding?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-content">
+            <p>
+              Our arena is equipped with an industrial-grade Caterpillar prime power generator connected to an automatic transfer switch (ATS). When municipal grid power fluctuates or drops, our generator switches over within 8 seconds, ensuring all centralized air conditioning chillers, lighting, ventilation fans, and sound systems operate continuously without interruption.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       GLOBAL FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <a href="index.html" class="brand-logo" aria-label="APEX ARENA Homepage">
+            <svg class="logo-crest-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="50,4 92,26 92,74 50,96 8,74 8,26" stroke="#D4AF37" stroke-width="2.5" fill="#0B0B0D" />
+              <path d="M50 18 L26 76 H36 L43 58 H57 L64 76 H74 L50 18 Z" fill="#D4AF37" />
+              <polygon points="50,32 55,50 45,50" fill="#0B0B0D" />
+            </svg>
+            <div class="brand-text">
+              <span class="brand-title">APEX <span>ARENA</span></span>
+              <span class="brand-sub">STRENGTH · CONDITIONING · GUJRANWALA</span>
+            </div>
+          </a>
+          <p>
+            Gujranwala's flagship architectural fitness sanctuary. Engineered for those who refuse average standards in health, physique, and performance.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://wa.me/923006291617?text=Hi%20APEX%20ARENA!%20I'd%20like%20to%20inquire%20about%20memberships%20and%20a%201-day%20free%20trial." target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="WhatsApp" data-wa-footer>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm0 18.15c-1.52 0-3-.41-4.31-1.19l-.31-.18-3.2.84.85-3.12-.2-.32a8.19 8.19 0 01-1.26-4.27c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 012.41 5.83c.01 4.54-3.69 8.23-8.25 8.23zm4.52-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.43s-.56-1.36-.77-1.86c-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.57c.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/></svg>
+            </a>
+            <a href="https://instagram.com/apexarenagujranwala" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://facebook.com/apexarenagujranwala" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links (Collapsible Accordion on Mobile) -->
+        <div class="footer-col footer-accordion">
+          <button class="footer-col-title footer-accordion-btn" type="button" aria-expanded="false" aria-controls="footerNavPanel">
+            <span>NAVIGATION</span>
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="footer-accordion-panel" id="footerNavPanel">
+            <div class="footer-links">
+              <a href="index.html">Home Overview</a>
+              <a href="programs.html">Training Disciplines</a>
+              <a href="programs.html#schedule">Shift Timetable</a>
+              <a href="memberships.html">Membership Packages</a>
+              <a href="facility.html">Arena & Equipment</a>
+              <a href="contact.html">Contact & Location</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 3: Programs (Collapsible Accordion on Mobile) -->
+        <div class="footer-col footer-accordion">
+          <button class="footer-col-title footer-accordion-btn" type="button" aria-expanded="false" aria-controls="footerDisciplinesPanel">
+            <span>DISCIPLINES</span>
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="footer-accordion-panel" id="footerDisciplinesPanel">
+            <div class="footer-links">
+              <a href="programs.html#bodybuilding">Hypertrophy & Iron</a>
+              <a href="programs.html#crossfit">CrossFit & Combat</a>
+              <a href="programs.html#hiit">Metabolic Fat Loss</a>
+              <a href="programs.html#ladies">Ladies Only Shift</a>
+              <a href="programs.html#pt">1-on-1 Transformation</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 4: Club Hours & Location (Collapsible Accordion on Mobile) -->
+        <div class="footer-col footer-accordion">
+          <button class="footer-col-title footer-accordion-btn" type="button" aria-expanded="false" aria-controls="footerHoursPanel">
+            <span>CLUB HOURS</span>
+            <span class="accordion-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="footer-accordion-panel" id="footerHoursPanel">
+            <div class="footer-hours-item">
+              <span>Gents Morning:</span>
+              <span>05:30 AM – 11:00 AM</span>
+            </div>
+            <div class="footer-hours-item">
+              <span>Ladies Exclusive:</span>
+              <span style="color: #FDA4AF;">11:00 AM – 04:00 PM</span>
+            </div>
+            <div class="footer-hours-item">
+              <span>Evening Arena:</span>
+              <span>04:00 PM – 11:00 PM</span>
+            </div>
+            <div class="footer-hours-item">
+              <span>Sunday:</span>
+              <span style="color: var(--text-muted);">Deep Sanitization</span>
+            </div>
+
+            <div style="margin-top: 18px; font-size: 0.86rem; color: var(--text-secondary);">
+              <strong style="color: var(--gold); display: block; margin-bottom: 4px;">APEX FLAGSHIP:</strong>
+              Plot 42-B, Commercial Avenue, Main Canal View / Satellite Town, Gujranwala, Punjab
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 APEX ARENA — Strength & Conditioning Club. All Rights Reserved.
+        </div>
+        <div>
+          Flagship Strength & Conditioning · Canal View / Satellite Town, Gujranwala
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp CTA -->
+  <a href="https://wa.me/923006291617?text=Hi%20APEX%20ARENA!%20I'd%20like%20to%20inquire%20about%20memberships%20and%20a%201-day%20free%20trial." class="floating-whatsapp" aria-label="Chat on WhatsApp" target="_blank" rel="noopener noreferrer" data-wa-floating>
+    <svg class="floating-whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm0 18.15c-1.52 0-3-.41-4.31-1.19l-.31-.18-3.2.84.85-3.12-.2-.32a8.19 8.19 0 01-1.26-4.27c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 012.41 5.83c.01 4.54-3.69 8.23-8.25 8.23zm4.52-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.43s-.56-1.36-.77-1.86c-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.57c.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/>
+    </svg>
+    <span>Chat with Reception</span>
+  </a>
+
+  <!-- Universal Free Trial Modal -->
+  <div class="modal-overlay" id="trialModalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">✕</button>
+      <div class="modal-header" style="margin-bottom: 20px;">
+        <span class="eyebrow no-after" style="margin-bottom: 6px;">VIP ARENA PASS</span>
+        <h3 id="modalTitle" style="font-size: 1.7rem;">Claim Your 1-Day Trial</h3>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 6px;">
+          Experience Gujranwala’s premier strength & conditioning arena free of charge. No upfront payment required.
+        </p>
+      </div>
+
+      <form id="modalTrialForm" class="calc-form">
+        <div class="form-field">
+          <label class="form-label" for="modalName">Full Name</label>
+          <input type="text" id="modalName" name="name" class="form-input" placeholder="e.g. Usman Gondal" required>
+        </div>
+        <div class="form-field">
+          <label class="form-label" for="modalPhone">WhatsApp Number</label>
+          <input type="tel" id="modalPhone" name="phone" class="form-input" placeholder="e.g. 0300 6291617" required>
+        </div>
+        <div class="form-group-row">
+          <div class="form-field">
+            <label class="form-label" for="modalGoal">Primary Goal</label>
+            <select id="modalGoal" name="goal" class="form-select">
+              <option value="Muscle Building & Strength">Muscle Building</option>
+              <option value="Fat Loss & Shred">Fat Loss & HIIT</option>
+              <option value="CrossFit & Conditioning">CrossFit / MMA</option>
+              <option value="Ladies Fitness & Zumba">Ladies Fitness / Zumba</option>
+              <option value="General Athletic Health">General Athletic Health</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="modalShift">Preferred Shift</label>
+            <select id="modalShift" name="shift" class="form-select">
+              <option value="Gents Morning (5:30 AM - 11:00 AM)">Gents Morning (5:30 - 11:00 AM)</option>
+              <option value="Ladies Shift (11:00 AM - 4:00 PM)">Ladies Shift (11:00 AM - 4:00 PM)</option>
+              <option value="Evening Arena (4:00 PM - 11:00 PM)">Evening Arena (4:00 - 11:00 PM)</option>
+            </select>
+          </div>
+        </div>
+        <div class="pass-preview-box">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>100% Free · Includes full gym access & trainer consultation</span>
+        </div>
+        <button type="submit" class="btn btn-gold btn-block" style="margin-top: 8px;">
+          <span>Generate Free Pass via WhatsApp</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
